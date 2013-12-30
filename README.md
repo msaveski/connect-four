@@ -3,7 +3,7 @@ AI Agent for Connect Four
 Author: Martin SAVESKI   
 Date: May 2009   
 License: MIT   
-***
+- - -
 
 This is a program I have developed during my undergraduate studies as a project for an introductory course in Artificial Intelligence. I particularly like this program as it is the first thing I have developed that seems to show intelligence, i.e., can kind of make its own decision, beyond what it was explicitly programmed by a human.
 
@@ -17,4 +17,4 @@ My initial implementation used solely the Minimax search algorithm and could sea
 
 ## Optimizations
 Obviously, to make the agent look more intelligent it had to be well optimized. Since the evaluation function is called extremely often during the search, it is the best place to start. As there are 2187 (3^7) possible combinations of lines of seven fields (729 of six fields, and 243 lines of five fields), I precomputed the evaluation values of every possible horizontal, vertical, diagonal line on the board. The evaluated values I stored in hash tables with the combinations as keys. So that the evaluation function only looks up the value for each line and adds it to the state value. The next optimization was inspired by the Iterative Deepening Search. During the search in every iteration, we know exactly what was the best move in the previous iteration, so if we consider the best row from the previous iteration first, it is very possible that it will have a high alpha/beta value and more of the search tree will be pruned. This results in decreased search space and allows search to be performed at grater depth.
-***
+- - -
