@@ -1,5 +1,4 @@
-Artificial Intelligence Agent for Connect Four
-====
+# Artificial Intelligence Agent for Connect Four
 Author: Martin SAVESKI
 Date: May 2009
 License: MIT
