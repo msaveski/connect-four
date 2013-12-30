@@ -1,7 +1,8 @@
-# Artificial Intelligence Agent for Connect Four
-Author: Martin SAVESKI
-Date: May 2009
-License: MIT
+# AI Agent for Connect Four
+===
+Author: Martin SAVESKI   
+Date: May 2009   
+License: MIT   
 ***
 
 This is a program I have developed during my undergraduate studies as a project for an introductory course in Artificial Intelligence. I particularly like this program as it is the first thing I have developed that seems to show intelligence, i.e., can kind of make its own decision, beyond what it was explicitly programmed by a human.
