@@ -1,4 +1,4 @@
-# AI Agent for Connect Four
+AI Agent for Connect Four
 ===
 Author: Martin SAVESKI   
 Date: May 2009   
